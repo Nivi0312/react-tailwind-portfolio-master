@@ -1,0 +1,21 @@
+/* src/Hero.css */
+
+@keyframes trainRunning {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(10%);
+  }
+  75% {
+    transform: translateX(-5%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.train-running {
+  display: inline-block;
+  animation: trainRunning 2s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+}
