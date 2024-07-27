@@ -2,7 +2,7 @@ export default function Contact () {
 
     const config = {
         email: 'nivashini0302@gmail.com',
-        linkedin: 'https://www.linkedin.com/in/nivashini-m-b6ba4b28b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
+        linkedin: 'www.linkedin.com/in/nivashini-m-b6ba4b28b'
     }
 
     return (
